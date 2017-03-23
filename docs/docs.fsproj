@@ -12,6 +12,8 @@
     <DotNetCliToolReference Include="dotnet-fable" Version="1.0.0-narumi-*" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="node_modules\fable-powerpack\Fable.PowerPack.fsproj" />
+    <ProjectReference Include="node_modules\fable-elmish\Fable.Elmish.fsproj" />
     <ProjectReference Include="node_modules\fable-elmish-snabbdom\Fable.Elmish.Snabbdom.fsproj" />
   </ItemGroup>
 </Project>

@@ -1,4 +1,4 @@
-module docs
+module Docs
 
 open Fable.Core
 open Fable.Core.JsInterop
